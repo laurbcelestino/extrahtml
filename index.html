@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Uma jornada pelo universo de Harry Potter: Hogwarts, suas casas, personagens, criaturas, filmes e livros.">
+  <title>O Mundo Mágico — Uma jornada por Harry Potter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="inicio">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="O Mundo Mágico, início">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-name">O MUNDO <b>MÁGICO</b><small>UMA JORNADA POR HOGWARTS</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#universo">Universo mágico</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#casas">Casas de Hogwarts</a>
+        <a href="#filmes-livros" data-media-filter="filme">Filmes</a>
+        <a href="#filmes-livros" data-media-filter="livro">Livros</a>
+      </nav>
+      <a class="header-cta" href="#casas">Entre em Hogwarts <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content page-width">
+        <p class="eyebrow"><span></span> O convite foi entregue</p>
+        <h1 id="hero-title">O mundo mágico<br><em>espera por você.</em></h1>
+        <p class="hero-copy">Além da plataforma nove e três quartos, existe um lugar onde a coragem, a amizade e a magia mudam tudo.</p>
+        <a class="button button-gold" href="#universo">Explore o universo <span aria-hidden="true">↓</span></a>
+        <div class="hero-caption"><span class="caption-line"></span> HOGWARTS · ESCOLA DE MAGIA E BRUXARIA</div>
+      </div>
+      <a class="scroll-cue" href="#casas" aria-label="Role para descobrir"><span></span></a>
+    </section>
+
+    <div class="marquee" aria-label="Uma história de magia, amizade e coragem">
+      <div class="marquee-track" aria-hidden="true">
+        <span>MAGIA</span><i>✦</i><span>AMIZADE</span><i>✦</i><span>CORAGEM</span><i>✦</i><span>HOGWARTS</span><i>✦</i><span>MAGIA</span><i>✦</i><span>AMIZADE</span><i>✦</i><span>CORAGEM</span><i>✦</i><span>HOGWARTS</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="houses section-light section-pad" id="casas" aria-labelledby="houses-title">
+      <div class="page-width">
+        <div class="section-heading heading-centered reveal">
+          <p class="eyebrow eyebrow-dark"><span></span> O chapéu seletor aguarda</p>
+          <h2 id="houses-title">Quatro casas.<br><em>Uma só Hogwarts.</em></h2>
+          <p>Tradições distintas, unidas pela magia. Descubra o que torna cada casa inesquecível.</p>
+        </div>
+        <div class="house-grid">
+          <article class="house-card house-gryffindor reveal">
+            <div class="house-art crest-gryffindor" role="img" aria-label="Brasão da Grifinória"></div>
+            <div class="house-content"><p class="house-kicker">A casa da coragem</p><h3>Grifinória</h3><p>Onde habitam os bravos de coração, a ousadia e a determinação.</p><span class="house-traits">Coragem <i>·</i> Bravura <i>·</i> Cavalheirismo</span></div>
+            <span class="house-number">01</span>
+          </article>
+          <article class="house-card house-slytherin reveal">
+            <div class="house-art crest-slytherin" role="img" aria-label="Brasão da Sonserina"></div>
+            <div class="house-content"><p class="house-kicker">A casa da ambição</p><h3>Sonserina</h3><p>Para quem encontra caminhos, honra suas raízes e mira alto.</p><span class="house-traits">Ambição <i>·</i> Astúcia <i>·</i> Determinação</span></div>
+            <span class="house-number">02</span>
+          </article>
+          <article class="house-card house-ravenclaw reveal">
+            <div class="house-art crest-ravenclaw" role="img" aria-label="Brasão da Corvinal"></div>
+            <div class="house-content"><p class="house-kicker">A casa da sabedoria</p><h3>Corvinal</h3><p>Um lar para mentes curiosas, criativas e sempre em busca de saber.</p><span class="house-traits">Sabedoria <i>·</i> Criatividade <i>·</i> Perspicácia</span></div>
+            <span class="house-number">03</span>
+          </article>
+          <article class="house-card house-hufflepuff reveal">
+            <div class="house-art crest-hufflepuff" role="img" aria-label="Brasão da Lufa-Lufa"></div>
+            <div class="house-content"><p class="house-kicker">A casa da lealdade</p><h3>Lufa-Lufa</h3><p>Onde a paciência, a justiça e a amizade têm lugar de honra.</p><span class="house-traits">Lealdade <i>·</i> Justiça <i>·</i> Dedicação</span></div>
+            <span class="house-number">04</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="characters section-dark section-pad" id="personagens" aria-labelledby="characters-title">
+      <div class="page-width">
+        <div class="section-heading heading-row reveal">
+          <div><p class="eyebrow"><span></span> Rostos de uma lenda</p><h2 id="characters-title">Personagens do<br><em>mundo bruxo.</em></h2></div>
+          <p>Amigos, mentores e heróis. São suas escolhas que dão forma à história.</p>
+        </div>
+        <div class="character-grid">
+          <article class="character-card reveal">
+            <img src="img/harrypotter1.webp" alt="Harry Potter com a varinha em punho" loading="lazy">
+            <div class="character-overlay"><span class="character-role">O menino que sobreviveu</span><h3>Harry Potter</h3><p>Coragem para enfrentar a escuridão. Lealdade para nunca enfrentá-la sozinho.</p></div><span class="character-index">01 / 04</span>
+          </article>
+          <article class="character-card reveal">
+            <img src="img/hermione3.webp" alt="Hermione Granger, bruxa brilhante de Hogwarts" loading="lazy">
+            <div class="character-overlay"><span class="character-role">A bruxa mais brilhante da sua idade</span><h3>Hermione Granger</h3><p>Conhecimento, presença de espírito e uma amizade que nunca vacila.</p></div><span class="character-index">02 / 04</span>
+          </article>
+          <article class="character-card reveal">
+            <img src="img/ronweasley3.webp" alt="Rony Weasley, amigo inseparável de Harry" loading="lazy">
+            <div class="character-overlay"><span class="character-role">Amigo até o fim</span><h3>Rony Weasley</h3><p>Humor, coração enorme e a coragem de estar sempre ao lado dos seus.</p></div><span class="character-index">03 / 04</span>
+          </article>
+          <article class="character-card reveal">
+            <img src="img/Dumbledore.webp" alt="Alvo Dumbledore, diretor de Hogwarts" loading="lazy">
+            <div class="character-overlay"><span class="character-role">Diretor de Hogwarts</span><h3>Alvo Dumbledore</h3><p>Sabedoria e esperança, mesmo nas horas mais sombrias.</p></div><span class="character-index">04 / 04</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="universe section-purple section-pad" id="universo" aria-labelledby="universe-title">
+      <div class="page-width">
+        <div class="section-heading heading-centered reveal">
+          <p class="eyebrow"><span></span> Há mais do que os olhos veem</p>
+          <h2 id="universe-title">Um universo de<br><em>possibilidades.</em></h2>
+          <p>Por trás de cada porta, uma descoberta. Por trás de cada feitiço, uma história.</p>
+        </div>
+        <div class="universe-grid">
+          <article class="world-card world-spells reveal" data-modal-title="Feitiços e encantamentos" data-modal-text="Da simples Lumos, que ilumina a ponta da varinha, ao Patrono que afasta dementadores: a magia ganha forma em palavras, intenção e prática.">
+            <img src="img/harrypotter1.webp" alt="Um bruxo com a varinha erguida" loading="lazy"><div class="world-shade"></div><div class="world-card-copy"><span class="world-icon">✧</span><p class="world-label">Palavras de poder</p><h3>Feitiços &amp;<br>encantamentos</h3><span class="world-link">Descobrir <b>↗</b></span></div>
+          </article>
+          <article class="world-card world-creatures reveal" data-modal-title="Criaturas mágicas" data-modal-text="O mundo mágico é habitado por seres extraordinários: hipogrifos orgulhosos, corujas mensageiras, testrálios e muitas outras criaturas que pedem respeito e curiosidade.">
+            <img src="img/gaioladascorujas.webp" alt="Coruja no Empório de Animais Mágicos" loading="lazy"><div class="world-shade"></div><div class="world-card-copy"><span class="world-icon">♧</span><p class="world-label">Seres extraordinários</p><h3>Criaturas<br>mágicas</h3><span class="world-link">Descobrir <b>↗</b></span></div>
+          </article>
+          <article class="world-card world-objects reveal" data-modal-title="Objetos encantados" data-modal-text="Vassouras que cruzam o céu, mapas que revelam passagens secretas, capas que escondem seus donos. Objetos mágicos tornam o impossível parte do cotidiano.">
+            <img src="img/campodequadribol.jpg" alt="Campo de quadribol de Hogwarts" loading="lazy"><div class="world-shade"></div><div class="world-card-copy"><span class="world-icon">✦</span><p class="world-label">Magia ao alcance das mãos</p><h3>Objetos<br>encantados</h3><span class="world-link">Descobrir <b>↗</b></span></div>
+          </article>
+          <article class="world-card world-places reveal" data-modal-title="Lugares mágicos" data-modal-text="Do Salão Principal iluminado por velas flutuantes à sala comunal da Grifinória, cada canto de Hogwarts guarda uma lembrança — ou um segredo.">
+            <img src="img/salão principal.jpg" alt="O Salão Principal de Hogwarts decorado para o inverno" loading="lazy"><div class="world-shade"></div><div class="world-card-copy"><span class="world-icon">⌂</span><p class="world-label">Portas para outros mundos</p><h3>Lugares<br>mágicos</h3><span class="world-link">Descobrir <b>↗</b></span></div>
+          </article>
+        </div>
+        <div class="universe-note"><span>✦</span> O extraordinário está em todo lugar — basta saber onde olhar.</div>
+      </div>
+    </section>
+
+    <section class="story section-light section-pad" id="filmes-livros" aria-labelledby="story-title">
+      <div class="page-width">
+        <div class="section-heading heading-row story-heading reveal">
+          <div><p class="eyebrow eyebrow-dark"><span></span> Vire a página. A magia continua.</p><h2 id="story-title">Uma história que<br><em>atravessa gerações.</em></h2></div>
+          <p>Uma saga contada em páginas e imagens. Relembre os capítulos que fizeram o mundo inteiro acreditar em magia.</p>
+        </div>
+        <div class="media-toolbar reveal">
+          <div class="media-tabs" role="group" aria-label="Escolha filmes ou livros">
+          <button class="media-tab is-active" type="button" data-filter="filme" aria-pressed="true">Filmes <span>08</span></button>
+          <button class="media-tab" type="button" data-filter="livro" aria-pressed="false">Livros <span>07</span></button>
+          </div>
+          <span class="media-hint">UMA SAGA · INÚMERAS DESCOBERTAS</span>
+        </div>
+        <div class="media-grid">
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-hogwarts"><img src="img/hogwartslinda.jpg" alt="Hogwarts iluminada à noite" loading="lazy"><span class="media-type">FILME · 2001</span><span class="media-number">01</span></div><div class="media-info"><p>O início de tudo</p><h3>A Pedra Filosofal</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Pedra Filosofal" data-modal-text="Em seu aniversário de onze anos, Harry descobre que é um bruxo e parte para Hogwarts. Lá, encontra seus melhores amigos, conhece o mundo da magia e começa a desvendar o mistério da Pedra Filosofal.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-hall"><img src="img/salão principal.jpg" alt="O Salão Principal de Hogwarts" loading="lazy"><span class="media-type">FILME · 2002</span><span class="media-number">02</span></div><div class="media-info"><p>Um segredo nas paredes</p><h3>A Câmara Secreta</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Câmara Secreta" data-modal-text="Uma presença misteriosa ameaça os alunos de Hogwarts. Harry, Rony e Hermione seguem pistas pelos corredores do castelo para descobrir quem abriu a Câmara Secreta.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-harry"><img src="img/harrypotter1.webp" alt="Harry Potter pronto para enfrentar novos desafios" loading="lazy"><span class="media-type">FILME · 2004</span><span class="media-number">03</span></div><div class="media-info"><p>O passado retorna</p><h3>O Prisioneiro de Azkaban</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Prisioneiro de Azkaban" data-modal-text="Com a fuga de Sirius Black de Azkaban, Harry descobre novas verdades sobre o passado de seus pais — e sobre as pessoas em quem pode confiar.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-quidditch"><img src="img/campodequadribol.jpg" alt="Campo de quadribol de Hogwarts" loading="lazy"><span class="media-type">FILME · 2005</span><span class="media-number">04</span></div><div class="media-info"><p>O torneio começa</p><h3>O Cálice de Fogo</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Cálice de Fogo" data-modal-text="Hogwarts recebe o Torneio Tribruxo. Escolhido de forma inesperada, Harry encara provas perigosas enquanto uma ameaça antiga volta a crescer.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-order"><img src="img/minerva.jpg" alt="Professora Minerva McGonagall em Hogwarts" loading="lazy"><span class="media-type">FILME · 2007</span><span class="media-number">05</span></div><div class="media-info"><p>Resistir e aprender</p><h3>A Ordem da Fênix</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Ordem da Fênix" data-modal-text="Em um ano de descrença e controle dentro de Hogwarts, Harry e seus amigos formam a Armada de Dumbledore para aprender a se defender.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-dumbledore"><img src="img/Dumbledore.webp" alt="Alvo Dumbledore, mentor de Harry Potter" loading="lazy"><span class="media-type">FILME · 2009</span><span class="media-number">06</span></div><div class="media-info"><p>Memórias reveladoras</p><h3>O Enigma do Príncipe</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Enigma do Príncipe" data-modal-text="Enquanto a ameaça cresce dentro e fora do castelo, Harry e Dumbledore investigam o passado de Voldemort em busca da chave para derrotá-lo.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-bellatrix"><img src="img/bellatrixpara2.png" alt="Bellatrix Lestrange, uma das bruxas das trevas" loading="lazy"><span class="media-type">FILME · 2010</span><span class="media-number">07</span></div><div class="media-info"><p>Uma jornada sem Hogwarts</p><h3>As Relíquias da Morte · Parte 1</h3><button class="text-link" type="button" data-modal-title="Harry Potter e as Relíquias da Morte: Parte 1" data-modal-text="Longe de Hogwarts, Harry, Rony e Hermione partem em uma missão perigosa para encontrar e destruir as Horcruxes de Voldemort.">Conhecer a história <span>↗</span></button></div></article>
+          <article class="media-card reveal" data-type="filme"><div class="media-image media-voldemort"><img src="img/voldemortpara2.png" alt="Lord Voldemort, o principal adversário de Harry" loading="lazy"><span class="media-type">FILME · 2011</span><span class="media-number">08</span></div><div class="media-info"><p>O confronto final</p><h3>As Relíquias da Morte · Parte 2</h3><button class="text-link" type="button" data-modal-title="Harry Potter e as Relíquias da Morte: Parte 2" data-modal-text="A batalha por Hogwarts reúne amigos e aliados para o confronto final entre Harry e Voldemort. O destino do mundo bruxo está em jogo.">Conhecer a história <span>↗</span></button></div></article>
+
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-one"><img src="img/livro-pedra.png" alt="Capa de Harry Potter e a Pedra Filosofal" loading="lazy"><span class="media-type">LIVRO · 1997</span><span class="media-number">01</span></div><div class="media-info"><p>A carta que mudou tudo</p><h3>A Pedra Filosofal</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Pedra Filosofal" data-modal-text="O primeiro livro acompanha a chegada de Harry a Hogwarts, onde ele encontra a amizade de Hermione e Rony, aprende magia e descobre uma ameaça ligada ao seu passado.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-two"><img src="img/livro-camara.png" alt="Capa de Harry Potter e a Câmara Secreta" loading="lazy"><span class="media-type">LIVRO · 1998</span><span class="media-number">02</span></div><div class="media-info"><p>Uma voz nos corredores</p><h3>A Câmara Secreta</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Câmara Secreta" data-modal-text="O segundo ano em Hogwarts traz mensagens ameaçadoras, ataques misteriosos e a descoberta de uma câmara escondida no castelo.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-three"><img src="img/livro-prisioneiro.png" alt="Capa de Harry Potter e o Prisioneiro de Azkaban" loading="lazy"><span class="media-type">LIVRO · 1999</span><span class="media-number">03</span></div><div class="media-info"><p>Um fugitivo à solta</p><h3>O Prisioneiro de Azkaban</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Prisioneiro de Azkaban" data-modal-text="Entre aulas, criaturas mágicas e viagens no tempo, Harry conhece a história de Sirius Black e encara revelações sobre o passado.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-four"><img src="img/livro-calice.png" alt="Capa de Harry Potter e o Cálice de Fogo" loading="lazy"><span class="media-type">LIVRO · 2000</span><span class="media-number">04</span></div><div class="media-info"><p>O mundo bruxo se reúne</p><h3>O Cálice de Fogo</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Cálice de Fogo" data-modal-text="O Torneio Tribruxo reúne escolas de magia em Hogwarts. A competição muda o rumo da história quando o perigo se revela real.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-five"><img src="img/livro-ordem.png" alt="Capa de Harry Potter e a Ordem da Fênix" loading="lazy"><span class="media-type">LIVRO · 2003</span><span class="media-number">05</span></div><div class="media-info"><p>Uma resistência secreta</p><h3>A Ordem da Fênix</h3><button class="text-link" type="button" data-modal-title="Harry Potter e a Ordem da Fênix" data-modal-text="No quinto ano de Harry, uma nova professora transforma Hogwarts. Em segredo, um grupo de alunos se reúne para aprender defesa contra as artes das trevas.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-six"><img src="img/livro-enigma.png" alt="Capa de Harry Potter e o Enigma do Príncipe" loading="lazy"><span class="media-type">LIVRO · 2005</span><span class="media-number">06</span></div><div class="media-info"><p>O passado de Voldemort</p><h3>O Enigma do Príncipe</h3><button class="text-link" type="button" data-modal-title="Harry Potter e o Enigma do Príncipe" data-modal-text="Pistas sobre a juventude de Voldemort ajudam Harry e Dumbledore a compreender o inimigo, enquanto Hogwarts atravessa tempos cada vez mais sombrios.">Conhecer o livro <span>↗</span></button></div></article>
+          <article class="media-card reveal is-hidden" data-type="livro"><div class="media-image media-book book-seven"><img src="img/livro-reliquias.png" alt="Capa de Harry Potter e as Relíquias da Morte" loading="lazy"><span class="media-type">LIVRO · 2007</span><span class="media-number">07</span></div><div class="media-info"><p>A última jornada</p><h3>As Relíquias da Morte</h3><button class="text-link" type="button" data-modal-title="Harry Potter e as Relíquias da Morte" data-modal-text="Harry, Rony e Hermione deixam Hogwarts para procurar as Horcruxes. A busca os leva ao confronto que decidirá o futuro dos dois mundos.">Conhecer o livro <span>↗</span></button></div></article>
+        </div>
+        <p class="collection-note">Uma seleção de capítulos da saga. <span>Que história você revisitaria?</span></p>
+      </div>
+    </section>
+
+    <section class="closing-banner" aria-label="Uma nova aventura espera por você">
+      <div class="closing-inner page-width reveal"><span class="closing-star">✧</span><p class="eyebrow">A magia nunca termina</p><h2>Há sempre mais uma<br><em>história para descobrir.</em></h2><a class="button button-outline" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-main">
+      <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">O MUNDO <b>MÁGICO</b><small>UMA JORNADA POR HOGWARTS</small></span></a><p>Um lugar para celebrar as histórias, a magia e as amizades que vivem em nós.</p></div>
+      <div class="footer-nav"><p class="footer-label">Explore</p><a href="#universo">Universo mágico</a><a href="#personagens">Personagens</a><a href="#casas">Casas de Hogwarts</a><a href="#filmes-livros">Filmes &amp; livros</a></div>
+      <div class="footer-note"><span>✦</span><p>“A felicidade pode ser encontrada mesmo nas horas mais sombrias, se alguém se lembrar de acender a luz.”</p><small>— Alvo Dumbledore</small></div>
+    </div>
+    <div class="footer-bottom page-width"><span>© <span id="current-year">2026</span> O Mundo Mágico · Projeto de fã, sem vínculo oficial.</span><a href="#inicio">Voltar ao topo ↑</a><span>Feito com <i>✦</i> e um pouco de magia</span></div>
+  </footer>
+
+  <dialog class="story-modal" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Fechar">×</button>
+    <span class="modal-ornament" aria-hidden="true">✧</span>
+    <p class="eyebrow eyebrow-dark"><span></span> Arquivos do mundo mágico</p>
+    <h2 id="modal-title"></h2>
+    <p class="modal-text"></p>
+    <button class="button button-gold modal-done" type="button">Continuar explorando <span aria-hidden="true">✦</span></button>
+  </dialog>
+</body>
+</html>
